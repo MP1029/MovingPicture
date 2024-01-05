@@ -1,0 +1,46 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MP's Website - Home</title>
+  <Body>
+  <nav>
+    <button id="homebtn" onclick="window.location.href = 'index.html'">Home</button>
+    <button id="page2" onclick="window.location.href = 'projects.html'">Projects</button>
+  </nav>
+    <p class="top-p">Hello and welcome to this test website! this will be cooler soon! :)</p>
+    <script>
+      window.onload = function() {scrollFunction()};
+      
+      function loadFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById("top-h1").style.opacity = "100";
+        }
+      }
+      </script>
+    <h1 class="top-h1">Welcome</h1>
+    <center><img id="me" src="me.png" alt="me"></center>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById("me").style.opacity = "100";
+        }
+      }
+      </script>
+    <center><p>This is one of my my PFPs!</p></center>
+    <br>
+    <br>
+    <center><h2>Links</h2></center>
+    <br>
+    <br>
+    <center><a href="https://scratch.mit.edu/users/movingpicture1029/">MovingPicture1029 on Scratch</a></center>
+    <br>
+    <br>
+    <center><a href="https://scratch.mit.edu/users/jaminnn/">Jaminnn on Scratch</a></center> 
+    <br>
+    <br>
+  </Body>
+</html>
